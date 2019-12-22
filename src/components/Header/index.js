@@ -34,7 +34,7 @@ export default function Header() {
             <img
               src={
                 profile.avatar
-                  ? profile.avatar.url
+                  ? profile.avatar.url.replace('localhost', '167.172.254.115')
                   : 'https://api.adorable.io/avatars/50/abott@adorable.png'
               }
               alt="Avatar"

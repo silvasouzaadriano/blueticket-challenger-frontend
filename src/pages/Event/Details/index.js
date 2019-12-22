@@ -102,7 +102,10 @@ export default function Event({ match }) {
           </header>
           {event.banner && (
             <Banner>
-              <img src={event.banner.url} alt="" />
+              <img
+                src={event.banner.url.replace('localhost', '167.172.254.115')}
+                alt=""
+              />
             </Banner>
           )}
           <Content>
