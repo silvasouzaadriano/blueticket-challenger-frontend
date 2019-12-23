@@ -41,8 +41,7 @@ export default function AvatarInput() {
       <label htmlFor="avatar">
         <img
           src={
-            preview.replace('localhost', '167.172.254.115') ||
-            'https://api.adorable.io/avatars/50/abott@adorable.png'
+            preview || 'https://api.adorable.io/avatars/50/abott@adorable.png'
           }
           alt="foto_perfil"
         />
