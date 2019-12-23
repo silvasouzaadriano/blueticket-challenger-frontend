@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import { darken } from 'polished';
 
 export const Container = styled.div`
-  max-width: 500px;
+  max-width: 900px;
   padding: 50px 0 0;
   margin: 0 auto;
   display: flex;
@@ -105,9 +105,6 @@ export const Banner = styled.div`
     border-radius: 10px;
     transition: transform 0.5s;
     transform-origin: center;
-    &:hover {
-      transform: scale(1.1);
-    }
   }
 `;
 
