@@ -75,7 +75,9 @@ export default function NewEvent({ match }) {
             <MdAddCircleOutline size={20} color="#fff" />
             Alterar Evento!
           </button>
-          <Link to={`/event-details/${eventId}`}>Voltar</Link>
+          <Link to={`/event-details/${eventId}`}>
+            <button type="button">Voltar</button>
+          </Link>
         </Form>
       )}
     </Container>
