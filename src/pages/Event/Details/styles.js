@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import { darken } from 'polished';
 
 export const Container = styled.div`
-  max-width: 900px;
+  max-width: 895px;
   padding: 50px 0 0;
   margin: 0 auto;
   display: flex;
