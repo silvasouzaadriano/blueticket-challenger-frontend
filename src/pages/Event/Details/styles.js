@@ -94,7 +94,7 @@ export const Content = styled.div`
 `;
 export const Banner = styled.div`
   align-self: stretch;
-  border-radius: 10px;
+  border-radius: 1px;
   img {
     width: 100%;
   }
