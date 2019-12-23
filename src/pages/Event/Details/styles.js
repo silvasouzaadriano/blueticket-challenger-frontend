@@ -105,6 +105,9 @@ export const Banner = styled.div`
     border-radius: 10px;
     transition: transform 0.5s;
     transform-origin: center;
+    &:hover {
+      transform: scale(1.1);
+    }
   }
 `;
 
