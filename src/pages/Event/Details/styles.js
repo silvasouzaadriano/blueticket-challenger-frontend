@@ -84,7 +84,12 @@ export const Content = styled.div`
       display: flex;
       align-items: center;
       font-size: 16px;
-
+      span {
+        margin-right: 15px;
+      }
+      svg {
+        margin-right: 5px;
+      }
     }
       > span {
         margin-left: 10px;

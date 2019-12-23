@@ -50,7 +50,7 @@ export default function BannerInput() {
         <input
           type="file"
           id="banner"
-          accept="image/x-png,image/gif,image/jpeg"
+          accept="image/*"
           onChange={handleChange}
           data-file={file}
           ref={ref}
