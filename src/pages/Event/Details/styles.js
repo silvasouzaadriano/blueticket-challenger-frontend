@@ -84,7 +84,9 @@ export const Content = styled.div`
       display: flex;
       align-items: center;
       font-size: 16px;
-
+      span {
+        margin-right: 30px;
+      }
     }
       > span {
         margin-left: 10px;
