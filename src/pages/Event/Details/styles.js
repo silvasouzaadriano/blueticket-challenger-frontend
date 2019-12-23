@@ -85,7 +85,7 @@ export const Content = styled.div`
       align-items: center;
       font-size: 16px;
       span {
-        margin-right: 20px;
+        margin-right: 30px;
       }
       svg {
         margin-right: 10px;
@@ -102,7 +102,7 @@ export const Banner = styled.div`
   border-radius: 10px;
   img {
     width: 100%;
-    border-radius: 1px;
+    border-radius: 10px;
     transition: transform 0.5s;
     transform-origin: center;
     &:hover {
