@@ -100,38 +100,4 @@ export const Content = styled.div`
 export const Banner = styled.div`
   align-self: stretch;
   border-radius: 10px;
-  img {
-    width: 100%;
-    border-radius: 10px;
-    transition: transform 0.5s;
-    transform-origin: center;
-    &:hover {
-      transform: scale(1.1);
-    }
-  }
-`;
-
-export const Tooltip = styled.span`
-  visibility: hidden;
-  background-color: black;
-  color: #fff;
-  text-align: center;
-  padding: 5px 0;
-  border-radius: 6px;
-  position: absolute;
-  z-index: 1;
-  width: 120px;
-  top: 115%;
-  left: 50%;
-  margin-left: -60px;
-  &::after {
-    content: ' ';
-    position: absolute;
-    bottom: 100%;
-    left: 50%;
-    margin-left: -5px;
-    border-width: 5px;
-    border-style: solid;
-    border-color: transparent transparent black transparent;
-  }
 `;
