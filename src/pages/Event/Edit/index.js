@@ -7,7 +7,6 @@ import { Form, Input } from '@rocketseat/unform';
 import { MdAddCircleOutline } from 'react-icons/md';
 import Loader from 'react-loader-spinner';
 import { toast } from 'react-toastify';
-import schema from '~/validations/Event';
 import { errorMessage } from '~/utils/Message';
 import Banner from '~/components/Banner';
 import SelectDate from '~/components/DatePicker';
@@ -56,7 +55,7 @@ export default function NewEvent({ match }) {
           <Loader type="Grid" color="#f94d6a" width={164} height={164} />
         </div>
       ) : (
-        <Form initialData={event} schema={schema} onSubmit={handleSubmit}>
+        <Form initialData={event} onSubmit={handleSubmit}>
           <Banner name="banner_id" />
           <Input name="title" placeholder="Nome do Evento" />
           <Input

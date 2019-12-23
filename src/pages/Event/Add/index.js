@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import { toast } from 'react-toastify';
 import { MdAddCircleOutline } from 'react-icons/md';
 import { errorMessage } from '~/utils/Message';
-import schema from '~/validations/Event';
+// import schema from '~/validations/Event';
 
 import api from '~/services/api';
 import history from '~/services/history';
@@ -32,7 +32,7 @@ export default function NewEvent() {
   }
   return (
     <Container>
-      <Form schema={schema} onSubmit={handleSubmit}>
+      <Form onSubmit={handleSubmit}>
         <Banner name="banner_id" />
         <Input name="title" placeholder="Nome do Evento" />
         <Input multiline name="description" placeholder="Descrição completa" />
